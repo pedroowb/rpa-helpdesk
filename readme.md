@@ -29,7 +29,6 @@ pip install openpyxl pyautogui fuzzywuzzy python-Levenshtein
 1. **Carregamento dos Dados**: A automação carrega o relatório da planilha de Helpdesk, contendo informações como nome do cliente, número do chamado e descrição do problema.
 2. **Abertura Automática de Chamados**: O script, utilizando `pyautogui`, acessa a interface gráfica do sistema de chamados e simula a abertura de novos tickets com base nas informações fornecidas na planilha.
 3. **Tratamento de Informações**: Se houver inconsistências nas informações dos chamados, a automação utiliza `fuzzywuzzy` para comparar e corrigir os dados, garantindo maior precisão.
-4. **Logs e Feedback**: O sistema gera logs de cada chamado aberto para acompanhamento posterior.
 
 ## Execução
 
